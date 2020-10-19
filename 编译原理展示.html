@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <h2>数据展示</h2>
+    <button @click="getData">get</button>
+    <ul>
+        <li v-for="(value,key,index) in showData">{{index}}{{key}}:{{value}}</li>
+    </ul>
+
+</div>
+
+
+<script>
+
+    const app = new Vue({
+        el:'#app',
+        data:{
+            showData:'',
+        },
+        methods:{
+            getData(){
+                let show;
+                axios.get('http://localhost:8080/byyl/display')
+                    .then((response) => {
+                        this.showData = JSON.parse(JSON.stringify(response.data.userInfo));
+                        console.log(this.showData);//请求的返回体
+                    })
+                    .catch((error) => {
+                        console.log(error);//异常
+                    });
+            }
+        }
+
+    })
+
+    
+</script>
+</body>
+</html>
