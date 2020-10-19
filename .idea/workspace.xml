@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="编译原理实验(3):war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba0b15ae-20a4-43ed-bae0-cab0361f237c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/_3__war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/_3__war_exploded/WEB-INF/classes/DisplayServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/_3__war_exploded/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/_3__war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisplayServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/DisplayServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/编译原理实验(3).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/ReceiveThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/SendTread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/file/demo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/file/demo/main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo2$Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/FileUtil1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../编译原理实验(2)" beforeDir="false" afterPath="$PROJECT_DIR$/../编译原理实验(2)" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../编译原理实验一" beforeDir="false" afterPath="$PROJECT_DIR$/../编译原理实验一" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="编译原理实验(3)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\孟哥\Desktop\java\idea-space\编译原理实验(3)\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1j2UooqNlVNT4PoRQQeUWy6XMjm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\孟哥\Desktop\java\idea-space\编译原理实验(3)\web\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.103">
+    <configuration name="编译原理展示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/byyl/编译原理展示.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 7.0.103" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.103" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="编译原理实验(3):war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/byyl" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_103_编译原理实验(3)" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5506" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="编译原理实验(3):war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.编译原理展示.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba0b15ae-20a4-43ed-bae0-cab0361f237c" name="Default Changelist" comment="" />
+      <created>1603001857471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603001857471</updated>
+      <workItem from="1603001858791" duration="769000" />
+      <workItem from="1603002637521" duration="901000" />
+      <workItem from="1603004440235" duration="751000" />
+      <workItem from="1603017241956" duration="3391000" />
+      <workItem from="1603020705506" duration="6929000" />
+      <workItem from="1603083655140" duration="244000" />
+    </task>
+    <task id="LOCAL-00001" summary="set">
+      <created>1603083758238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603083758238</updated>
+    </task>
+    <task id="LOCAL-00002" summary="set">
+      <created>1603083816271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603083816271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="set" />
+    <option name="LAST_COMMIT_MESSAGE" value="set" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="665" y="423" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603020908534">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="665" y="423" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1603020908534" />
+    <state x="350" y="381" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1603002452215">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="350" y="381" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1603002452215" />
+    <state x="1026" y="300" key="CommitChangelistDialog2" timestamp="1603083814287">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1026" y="300" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1603083814287" />
+    <state x="300" y="442" key="FileChooserDialogImpl" timestamp="1603083866797">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="300" y="442" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1603083866797" />
+    <state width="720" height="116" key="GridCell.Tab.0.bottom" timestamp="1603043011825">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011825" />
+    <state width="720" height="116" key="GridCell.Tab.0.center" timestamp="1603043011824">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011824" />
+    <state width="720" height="116" key="GridCell.Tab.0.left" timestamp="1603043011823">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011823" />
+    <state width="720" height="116" key="GridCell.Tab.0.right" timestamp="1603043011825">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011825" />
+    <state width="720" height="116" key="GridCell.Tab.1.bottom" timestamp="1603043011826">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011826" />
+    <state width="720" height="116" key="GridCell.Tab.1.center" timestamp="1603043011825">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011825" />
+    <state width="720" height="116" key="GridCell.Tab.1.left" timestamp="1603043011825">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011825" />
+    <state width="720" height="116" key="GridCell.Tab.1.right" timestamp="1603043011826">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011826" />
+    <state width="720" height="116" key="GridCell.Tab.2.bottom" timestamp="1603043011826">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.2.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011826" />
+    <state width="720" height="116" key="GridCell.Tab.2.center" timestamp="1603043011826">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.2.center/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011826" />
+    <state width="720" height="116" key="GridCell.Tab.2.left" timestamp="1603043011826">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.2.left/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011826" />
+    <state width="720" height="116" key="GridCell.Tab.2.right" timestamp="1603043011826">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="720" height="116" key="GridCell.Tab.2.right/0.0.2048.1112@0.0.2048.1112" timestamp="1603043011826" />
+    <state x="0" y="251" width="1038" height="861" key="SettingsEditor" timestamp="1603002505111">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="0" y="251" width="1038" height="861" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1603002505111" />
+    <state x="956" y="340" key="Vcs.Push.Dialog.v2" timestamp="1603083844319">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="956" y="340" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1603083844319" />
+    <state x="191" y="158" width="642" height="801" key="find.popup" timestamp="1603018215713">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="191" y="158" width="642" height="801" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1603018215713" />
+  </component>
+</project>
