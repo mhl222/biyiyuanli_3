@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -10,15 +11,115 @@
         [v-cloak] {
             display: none;
         }
+
+        table {
+            border: 1px solid#e9e9e9;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+
+            padding: 8px 16px;
+            color: #5c6b77;
+            font-family: Microsoft YaHei;
+        }
+
+        th {
+            font-weight: 600;
+            background-color: rgb(145, 195, 243);
+
+        }
+
+        td {
+            border: 1px solid #e9e9e9;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #D3D3D3;
+        }
+
+        tr:hover {
+            background-color: rgb(145, 195, 243);
+        }
+
+        tbody tr:nth-child(even):hover {
+            background-color: rgb(145, 195, 243);
+        }
+
+        button {
+            border: none;
+            border-radius: 3px;
+            color: white;
+            background-color: #f7dbf8;
+            outline: none;
+        }
+
+        button:hover {
+            transition-duration: 0.3s;
+            box-shadow: 0px 0px 5px 3px #f9b2fc;
+            filter: opacity(0.8);
+        }
     </style>
 </head>
+
 <body>
 <div id="app">
-    <h2>数据展示</h2>
-    <button @click="getData">get</button>
-    <ul>
-        <li v-for="(value,key,index) in showData">{{index}}{{key}}:{{value}}</li>
-    </ul>
+
+    <div>
+        <h2>数据展示</h2>
+        <button @click="getData">get</button>
+    </div>
+    <div :hidden="flag">
+        <div>
+            <div style="float: left;">
+                <h2>分析过程</h2>
+                <table>
+                    <thead>
+                    <th>序号</th>
+                    <th>状态</th>
+                    <th>栈内</th>
+                    <th>输入串</th>
+                    </thead>
+                    <tbody>
+                    <tr v-for="(item,index) in SETPLIST">
+                        <td>{{index}}</td>
+                        <td v-for="single in item">{{single}}</td>
+
+
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="float:right;">
+                <h2>ACTION/GO</h2>
+                <table>
+                    <thead>
+                    <th>序号</th>
+                    <th v-for="item in AHEAD">{{item}}</th>
+                    <th v-for="item in AGOTO">{{item}}</th>
+
+                    </thead>
+                    <tbody>
+                    <tr v-for="(item,index) in ACTION">
+                        <td>{{index}}</td>
+                        <td v-for="single in item">{{single}}</td>
+                        <td v-for="single1 in GOTO[index]">{{single1}}</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+
+        </div>
+
+
+
+    </div>
+</div>
+
 
 </div>
 
@@ -26,17 +127,28 @@
 <script>
 
     const app = new Vue({
-        el:'#app',
-        data:{
-            showData:'',
+        el: '#app',
+        data: {
+            GOTO: '',
+            ACTION: '',
+            SETPLIST: '',
+            AHEAD: '',
+            AGOTO: '',
+            flag: true,
         },
-        methods:{
-            getData(){
-                let show;
+        methods: {
+            getData() {
                 axios.get('http://localhost:8080/byyl/display')
                     .then((response) => {
-                        this.showData = JSON.parse(JSON.stringify(response.data.userInfo));
-                        console.log(this.showData);//请求的返回体
+                        let data;
+                        data = JSON.parse(JSON.stringify(response.data));
+                        this.ACTION = data.ACTION.list;
+                        this.AHEAD = data.ACTION.key;
+                        this.GOTO = data.GOTO.list;
+                        this.AGOTO = data.GOTO.key;
+                        this.SETPLIST = data.STACKLIST;
+                        this.flag = false;
+                        console.log(data);//请求的返回体
                     })
                     .catch((error) => {
                         console.log(error);//异常
@@ -46,7 +158,8 @@
 
     })
 
-    
+
 </script>
 </body>
+
 </html>
