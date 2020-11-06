@@ -54,6 +54,9 @@ public class LR_1 {
     }
     static ArrayList<HashSet<Item_collection>> collection = new ArrayList<>();//项目集规范族
     static Stack<Item_stack> stack = new Stack<>();//符号栈
+    //输出状态存储
+    static ArrayList<Vector<String> > printlist= new ArrayList<>();
+
 
     public static void main(String[] args) {
         //初始化
@@ -418,6 +421,21 @@ public class LR_1 {
         }
         c=inStr.substring(p);
         System.out.printf("%-20s%-10s%-10s\n",a,b,c);
+        Vector<String> print= new Vector<>();
+        print.add(a);
+        print.add(b);
+        print.add(c);
+        printlist.add(print);
+    }
 
+    static void start(){
+        //初始化
+        init();
+        getCollection();
+        initTable();
+        creatTable();
+        System.out.printf("%10s%10s%10s\n","状态","符号","输入串");
+        startLR_1();
+        System.out.println("---------------");
     }
 }
